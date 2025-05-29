@@ -5,7 +5,7 @@
 package lessiontask3;
 
 import java.util.Scanner;
-import lessiontask3.Circle.Circle;
+import lessiontask3.Circle.SimpleIntrest;
 
 /**
  *
@@ -17,7 +17,7 @@ public class LessionTask3 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Circle circle = new Circle();
+        SimpleIntrest circle = new SimpleIntrest();
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the radius of the circle: ");
         int radius = sc.nextInt();

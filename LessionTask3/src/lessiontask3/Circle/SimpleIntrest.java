@@ -8,10 +8,10 @@ package lessiontask3.Circle;
  *
  * @author zenusha
  */
-public class Circle{
-    //1. Write a Java program to create a class called "Circle" with a radius attribute. 
-    // You can access this attribute using setter and getter method. 
-    // Calculate the area and circumference of the circle.
+public class SimpleIntrest{
+    // 2. Write a Java program to create a class called “Simple Interest” with a 
+    // data fields principle, time and rate, using setter getter method and print 
+    // the values.
     private int radius;
     public void setRadius(int radius){
         this.radius = radius;
